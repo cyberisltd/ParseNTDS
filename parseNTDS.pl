@@ -111,7 +111,7 @@ foreach (@records) {
 		$nthash = $1;
 	}
 
-	if ($instance =~ /$username:[^\$]([^\:]+):/) {
+	if ($instance =~ /$username:([^\:\$]+):/) {
 		$lmhash = $1;
 	}
 
